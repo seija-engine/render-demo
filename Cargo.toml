@@ -1,0 +1,15 @@
+[package]
+name = "render-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.9.0"
+seija-app = {path = "../seija/crates/seija-app"}
+seija-core = {path = "../seija/crates/seija-core"}
+seija-winit = {path = "../seija/crates/seija-winit"}
+seija-input = {path = "../seija/crates/seija-input"}
+seija-transform = {path = "../seija/crates/seija-transform"}
+seija-asset = {path = "../seija/crates/seija-asset"}
+seija-render = {path = "../seija/crates/seija-render"}
+seija-pbr = {path = "../seija/crates/seija-pbr"}
