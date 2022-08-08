@@ -1956,6 +1956,7 @@ dependencies = [
  "bevy_ecs",
  "bytemuck",
  "core-derive",
+ "glam",
  "log",
  "raw-window-handle 0.3.4",
  "seija-app",
