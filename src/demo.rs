@@ -1,7 +1,11 @@
 use std::collections::HashMap;
 
+use seija_app::ecs::system::Commands;
 use seija_asset::{LoadingTrack, AssetServer, HandleUntyped, Assets};
-use seija_gltf::asset::GltfAsset;
+use seija_gltf::{asset::GltfAsset, create_gltf};
+use seija_render::material::MaterialStorage;
+
+use crate::tools::conv_pbr_material;
 #[derive(PartialEq, Eq)]
 pub enum GameState {
     None,
@@ -32,8 +36,11 @@ impl DemoGame {
         self.loadings.push(("car".into(),asset.load_async::<GltfAsset>("res/model/pony_cartoon/scene.gltf", None).unwrap()));
     }
 
-    pub fn on_asset_ready(&mut self,gltf_assets:&Assets<GltfAsset>) {
-        log::error!("on_asset_ready");
-        dbg!(self.asset_cache.get("car"));
+    pub fn on_asset_ready(&mut self,gltf_assets:&Assets<GltfAsset>,commands:&mut Commands,materials:&MaterialStorage) {
+        let car_id = self.asset_cache.get("car").unwrap();
+        let car_asset = gltf_assets.get(&car_id.id).unwrap();
+       
+
+        create_gltf(car_asset, commands,&|m| { conv_pbr_material(m, materials) });
     }
 }

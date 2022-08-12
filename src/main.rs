@@ -76,7 +76,7 @@ pub fn on_start(mut commands:Commands,win:Res<AppWindow>,materials:Res<MaterialS
     }  
 }
 
-fn on_update(mut game:ResMut<DemoGame>,asset:Res<AssetServer>,gltfs:Res<Assets<GltfAsset>>) {
+fn on_update(mut game:ResMut<DemoGame>,mut commands:Commands,asset:Res<AssetServer>,gltfs:Res<Assets<GltfAsset>>,mats:Res<MaterialStorage>) {
     match game.state {
         GameState::None => { game.state = GameState::LoadAssets }
         GameState::LoadAssets => {
@@ -89,7 +89,7 @@ fn on_update(mut game:ResMut<DemoGame>,asset:Res<AssetServer>,gltfs:Res<Assets<G
                 for (name,track) in loadings {
                     game.asset_cache.insert(name, track.handle().clone());
                 }
-                game.on_asset_ready(&gltfs);
+                game.on_asset_ready(&gltfs,&mut commands,&mats);
                 game.state = GameState::OnStart;
             }
         },
