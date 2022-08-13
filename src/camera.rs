@@ -38,7 +38,7 @@ impl Default for CameraTranController {
     fn default() -> Self {
         CameraTranController { 
             move_speed:10f32,
-            hv_move_speed:5f32,
+            hv_move_speed:1f32,
             state:ControllerState::None,
             last_position:Vec2::ZERO
          }

@@ -1,6 +1,6 @@
 {
-    :name "pbrStandard"
-    :order "Opaque"
+    :name "pbrStandard[T]"
+    :order "Transparent"
     :props [
         {:name "baseColor"            :type "Texture" :default "white" }
         {:name "emissive"             :type "Texture" :default "black" }

@@ -9,7 +9,8 @@ pub fn _load_texture(textures:&mut Assets<Texture>,path:&str) -> Handle<Texture>
 }
 
 pub fn conv_pbr_material(gltf_material:&GltfMaterial,materials:&MaterialStorage) -> Option<Handle<Material>> {
-    materials.create_material_with("pbrStandard", |props| {
+    let material_name = if gltf_material.is_opaque() { "pbrStandard" } else { "pbrStandard[T]" };
+    materials.create_material_with(material_name, |props| {
         if let Some(base_color) = gltf_material.base_color_texture.clone() {
             props.texture_props.set("baseColor", base_color);
         }
@@ -23,7 +24,11 @@ pub fn conv_pbr_material(gltf_material:&GltfMaterial,materials:&MaterialStorage)
             log::error!("metallic_roughness");
             props.texture_props.set("metallicRoughness", metallic_roughness_texture);
         }
-     
+        if let Some(emissive_texture) = gltf_material.emissive_texture.clone() {
+            props.texture_props.set("emissive", emissive_texture);
+        }
+
+        props.props.set_float3("emissiveFactor", gltf_material.emissive_factor, 0);
         props.props.set_float4("baseColorFactor", gltf_material.base_color_factor, 0);
         props.props.set_f32("metallicFactor",      gltf_material.metallic_factor, 0);
         props.props.set_f32("roughnessFactor",     gltf_material.roughness_factor, 0);

@@ -60,9 +60,9 @@ fn init_modules(app:&mut App) {
 }
 
 pub fn on_start(mut commands:Commands,win:Res<AppWindow>,materials:Res<MaterialStorage>) {
-    materials.load_material_def(std::fs::read_to_string("materials/pbrColor.mat.clj").unwrap().as_str());
+    //materials.load_material_def(std::fs::read_to_string("materials/pbrColor.mat.clj").unwrap().as_str());
     materials.load_material_def(std::fs::read_to_string("materials/pbrStandard.mat.clj").unwrap().as_str());
-
+    materials.load_material_def(std::fs::read_to_string("materials/pbrStandard[T].mat.clj").unwrap().as_str());
     add_pbr_camera(&mut commands,Vec3::new(0f32, 0f32, 2f32),Quat::IDENTITY,&win); 
     //light
     {
