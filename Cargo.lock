@@ -2017,6 +2017,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a3f87b73ce11b1619a3c6332f45341e0047173771e8b8b73f87bfeefb7b56244"
 
 [[package]]
+name = "relative-path"
+version = "1.7.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0df32d82cedd1499386877b062ebe8721f806de80b08d183c70184ef17dd1d42"
+
+[[package]]
 name = "render-demo"
 version = "0.1.0"
 dependencies = [
@@ -2106,11 +2112,11 @@ version = "0.1.0"
 dependencies = [
  "async-trait",
  "bevy_ecs",
- "crossbeam-channel",
  "downcast-rs",
  "log",
  "parking_lot",
  "rand",
+ "relative-path",
  "seija-app",
  "seija-core",
  "uuid",
@@ -2129,6 +2135,7 @@ dependencies = [
  "raw-window-handle 0.3.4",
  "seija-app",
  "smol",
+ "smol_str",
  "uuid",
 ]
 
@@ -2148,6 +2155,7 @@ dependencies = [
  "glam",
  "gltf",
  "log",
+ "relative-path",
  "seija-app",
  "seija-asset",
  "seija-core",
@@ -2187,7 +2195,6 @@ dependencies = [
  "async-trait",
  "bevy_ecs",
  "bitflags",
- "crossbeam-channel",
  "env_logger",
  "fixedbitset 0.4.2",
  "fnv",

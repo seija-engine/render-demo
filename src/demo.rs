@@ -33,7 +33,7 @@ impl Default for DemoGame {
 impl DemoGame {
 
     pub fn load_assets(&mut self,asset:&AssetServer) {
-        self.loadings.push(("car".into(),asset.load_async::<GltfAsset>("res/model/pony_cartoon/scene.gltf", None).unwrap()));
+        self.loadings.push(("car".into(),asset.load_async::<GltfAsset>("model/pony_cartoon/scene.gltf", None).unwrap()));
     }
 
     pub fn on_asset_ready(&mut self,gltf_assets:&Assets<GltfAsset>,commands:&mut Commands,materials:&MaterialStorage) {

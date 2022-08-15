@@ -43,7 +43,7 @@ fn init_modules(app:&mut App) {
     app.add_module(CoreModule);
     app.add_module(TransformModule);
     app.add_module(InputModule);
-    app.add_module(AssetModule);
+    app.add_module(AssetModule("res".into()));
     app.add_module(GLTFModule);
     app.add_module(WinitModule::default());
     let render_config = RenderConfig {
@@ -87,7 +87,7 @@ fn on_update(mut game:ResMut<DemoGame>,mut commands:Commands,asset:Res<AssetServ
             if game.loadings.iter().all(|v| v.1.is_finish()) {
                 let loadings:Vec<_> = game.loadings.drain(..).collect();
                 for (name,track) in loadings {
-                    game.asset_cache.insert(name, track.handle().clone());
+                    game.asset_cache.insert(name, track.take());
                 }
                 game.on_asset_ready(&gltfs,&mut commands,&mats);
                 game.state = GameState::OnStart;
