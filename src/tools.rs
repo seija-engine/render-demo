@@ -1,5 +1,6 @@
 use seija_asset::{Handle, Assets};
 use seija_gltf::{asset::GltfMaterial};
+/* 
 use seija_render::{resource::{Texture, TextureDescInfo}, material::{MaterialStorage, Material}};
 
 pub fn _load_texture(textures:&mut Assets<Texture>,path:&str) -> Handle<Texture> {
@@ -30,4 +31,4 @@ pub fn conv_pbr_material(gltf_material:&GltfMaterial,materials:&MaterialStorage)
         props.props.set_f32("metallicFactor",      gltf_material.metallic_factor, 0);
         props.props.set_f32("roughnessFactor",     gltf_material.roughness_factor, 0);
     })
-}
+}*/
