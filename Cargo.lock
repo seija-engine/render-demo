@@ -1943,6 +1943,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2f61dcf0b917cd75d4521d7343d1ffff3d1583054133c9b5cbea3375c703c40d"
 
 [[package]]
+name = "quick-xml"
+version = "0.23.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9279fbdacaad3baf559d8cabe0acc3d06e30ea14931af31af79578ac0946decc"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2088,6 +2097,8 @@ dependencies = [
  "seija-input",
  "seija-pbr",
  "seija-render",
+ "seija-render-template",
+ "seija-template",
  "seija-transform",
  "seija-winit",
  "smol",
@@ -2284,6 +2295,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "seija-render-template"
+version = "0.1.0"
+dependencies = [
+ "log",
+ "seija-app",
+ "seija-asset",
+ "seija-core",
+ "seija-gltf",
+ "seija-pbr",
+ "seija-render",
+ "seija-template",
+]
+
+[[package]]
 name = "seija-skeleton3d"
 version = "0.1.0"
 dependencies = [
@@ -2298,6 +2323,21 @@ dependencies = [
  "seija-core",
  "seija-render",
  "seija-transform",
+]
+
+[[package]]
+name = "seija-template"
+version = "0.1.0"
+dependencies = [
+ "log",
+ "quick-xml",
+ "seija-app",
+ "seija-asset",
+ "seija-core",
+ "seija-transform",
+ "smallvec",
+ "smol_str",
+ "thiserror",
 ]
 
 [[package]]

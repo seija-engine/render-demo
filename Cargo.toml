@@ -14,6 +14,8 @@ seija-asset = {path = "../seija/crates/seija-asset"}
 seija-render = {path = "../seija/crates/seija-render"}
 seija-pbr = {path = "../seija/crates/seija-pbr"}
 seija-gltf = {path = "../seija/crates/seija-gltf"}
+seija-template = {path = "../seija/crates/seija-template"}
+seija-render-template = {path = "../seija/crates/seija-render-template"}
 smol = "1.2.5"
 anyhow = "1.0.60"
 log = "0.4.17"

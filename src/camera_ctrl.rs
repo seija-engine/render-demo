@@ -1,23 +1,10 @@
-use seija_app::ecs::{system::{Commands, Res, Local, Query}, prelude::Entity};
+use seija_app::ecs::{system::{ Res, Local, Query}, prelude::Entity};
 use seija_input::{Input, event::MouseButton};
-use seija_pbr::PBRCameraInfo;
-use seija_render::camera::camera::{Perspective, Camera};
+
+use seija_render::camera::camera::{Camera};
 use seija_transform::Transform;
-use seija_core::{math::{Vec3, Quat, Vec2, EulerRot}, window::AppWindow, time::Time};
+use seija_core::{math::{Vec3, Quat, Vec2, EulerRot},time::Time};
 
-pub fn add_pbr_camera(commands:&mut Commands,pos:Vec3,r:Quat,w:&AppWindow) {
-    let mut camera_commands = commands.spawn();
-    let mut t = Transform::default();
-    t.local.position = pos;
-    t.local.rotation = r;
-    camera_commands.insert(t);
-
-    let mut per = Perspective::default();
-    per.aspect_ratio = w.width() as f32 / w.height() as f32;
-    let camera = Camera::from_3d(per);
-    camera_commands.insert(camera);
-    camera_commands.insert(PBRCameraInfo::default());
-}
 
 
 
