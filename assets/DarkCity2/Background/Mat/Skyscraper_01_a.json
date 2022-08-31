@@ -1,0 +1,11 @@
+{
+    "material":"materials/pbrStandard[T].mat.clj",
+    "props":{
+        "baseColorFactor":[1,1,1,1],
+        "baseColor":"DarkCity2/Background/Textures/Skyscraper_01_a.png",
+        "normal":"DarkCity2/Background/Textures/Skyscraper_01_n.png",
+        "metallicRoughness":"DarkCity2/Background/Textures/Skyscraper_01_m.png",
+        "emissive":"DarkCity2/Background/Textures/Skyscraper_01_e.png",
+        "alphaCutoff":0.545
+    }
+ }

@@ -11,6 +11,7 @@
         {:name "roughnessFactor" :type "float" :default 0 }
         {:name "baseColorFactor" :type "float4" :default [1,1,1,1] }
         {:name "emissiveFactor" :type  "float3" :default [1,1,1] }
+        {:name "alphaCutoff" :type "float" :default 0.1}
     ]
     :pass [
        
@@ -22,6 +23,9 @@
                     void slot_fs_material(inout MaterialInputs inputs,vec2 uv,out vec4 normalColor) {
                         inputs.baseColor = texture(sampler2D(tex_baseColor, tex_baseColorSampler), uv); 
                         inputs.baseColor = inputs.baseColor * material.baseColorFactor;
+                        if(inputs.baseColor.a <  material.alphaCutoff) {
+                            discard;
+                        }
                         vec4 mr = texture(sampler2D(tex_metallicRoughness, tex_metallicRoughnessSampler), uv);
                         inputs.metallic  = mr.r * material.metallicFactor;
                         inputs.roughness = mr.g * material.roughnessFactor;

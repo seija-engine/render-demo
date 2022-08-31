@@ -1,0 +1,362 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 5762,
+      "type": "VEC3",
+      "max": [
+        14.944637298583984,
+        89.237831115722656,
+        17.077465057373047
+      ],
+      "min": [
+        -13.81153392791748,
+        -1.070068359375,
+        -16.993022918701172
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5762,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5762,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5762,
+      "type": "VEC2",
+      "max": [
+        3.9986503124237061,
+        1.0
+      ],
+      "min": [
+        -2.4843876361846924,
+        0.001650691032409668
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 5762,
+      "type": "VEC2",
+      "max": [
+        0.91355925798416138,
+        0.99603176116943359
+      ],
+      "min": [
+        0.0036396682262420654,
+        0.00396806001663208
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 8436,
+      "type": "SCALAR",
+      "max": [
+        5451.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 528,
+      "type": "SCALAR",
+      "max": [
+        5761.0
+      ],
+      "min": [
+        5452.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Skyscraper_04.bin",
+      "byteLength": 340600
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 69144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 69144,
+      "byteLength": 69144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 138288,
+      "byteLength": 92192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 230480,
+      "byteLength": 46096
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 276576,
+      "byteLength": 46096
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 322672,
+      "byteLength": 16872
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 339544,
+      "byteLength": 1056
+    }
+  ],
+  "images": [
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_e.png",
+      "name": "Skyscraper_01_e"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_n.png",
+      "name": "Skyscraper_01_n"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_ao.png",
+      "name": "Skyscraper_01_ao"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_a.png",
+      "name": "Skyscraper_01_a"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_m.png",
+      "name": "Skyscraper_01_m"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Grid3_n.png",
+      "name": "Grid3_n"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Grid3_ao.png",
+      "name": "Grid3_ao"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Grid3_a.png",
+      "name": "Grid3_a"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Grid3_m.png",
+      "name": "Grid3_m"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7482759,
+          0.7482759,
+          0.7482759,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 2
+      },
+      "emissiveTexture": {
+        "index": 0
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "name": "Skyscraper_01_a"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 7
+        },
+        "metallicRoughnessTexture": {
+          "index": 8
+        }
+      },
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "strength": 0.19200000166893005,
+        "index": 6
+      },
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.54500001668930054,
+      "name": "Grid3_a"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 6,
+          "material": 1
+        }
+      ],
+      "name": "Skyscraper_04"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Skyscraper_04"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Skyscraper_04"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Skyscraper_01_e"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "Skyscraper_01_n"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "Skyscraper_01_ao"
+    },
+    {
+      "sampler": 3,
+      "source": 3,
+      "name": "Skyscraper_01_a"
+    },
+    {
+      "sampler": 4,
+      "source": 4,
+      "name": "Skyscraper_01_m"
+    },
+    {
+      "sampler": 5,
+      "source": 5,
+      "name": "Grid3_n"
+    },
+    {
+      "sampler": 6,
+      "source": 6,
+      "name": "Grid3_ao"
+    },
+    {
+      "sampler": 7,
+      "source": 7,
+      "name": "Grid3_a"
+    },
+    {
+      "sampler": 8,
+      "source": 8,
+      "name": "Grid3_m"
+    }
+  ]
+}

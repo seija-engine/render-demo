@@ -12,17 +12,78 @@
         </Entity>
         <Entity name="Light">
             <Components>
-                <Transform rotation="180,0,0" />
+                <Transform rotation="120,0,0" />
                 <PBRLight type="Directional" intensity="62000" color="1,1,1" />
             </Components>
         </Entity>
+        
+        
 
-        <Entity name="Cube0">
+        <Entity name="City">
             <Components>
-                <Transform position="0,0,-2" rotation="0,0,0"/>
-                <Mesh res="res://mesh:cube"/>
-                <Material res="res://mats/pbr_white.json" />
+                <Transform  position="0,-50,-100" />
             </Components>
+            <Children>
+                <Entity name="City">
+                    <Components>
+                        <Transform />
+                        <Mesh res="res://DarkCity2/Background/Models/Skyscraper_01.gltf#mesh.0.0"/>
+                        <Material res="res://DarkCity2/Background/Mat/Skyscraper_01_a.json" />
+                    </Components>
+                </Entity>
+                <Entity>
+                    <Components>
+                        <Transform />
+                        <Mesh res="res://DarkCity2/Background/Models/Skyscraper_01.gltf#mesh.0.1"/>
+                        <Material res="res://DarkCity2/Background/Mat/Grid3_a.json" />
+                    </Components>
+                </Entity>
+            </Children>
         </Entity>
+
+        <Entity name="City">
+            <Components>
+                <Transform  position="50,-50,-100" />
+            </Components>
+            <Children>
+                <Entity name="City">
+                    <Components>
+                        <Transform />
+                        <Mesh res="res://DarkCity2/Background/Models/Skyscraper_02.gltf#mesh.0.0"/>
+                        <Material res="res://DarkCity2/Background/Mat/Skyscraper_01_a.json" />
+                    </Components>
+                </Entity>
+                <Entity>
+                    <Components>
+                        <Transform />
+                        <Mesh res="res://DarkCity2/Background/Models/Skyscraper_02.gltf#mesh.0.1"/>
+                        <Material res="res://DarkCity2/Background/Mat/Grid3_a.json" />
+                    </Components>
+                </Entity>
+            </Children>
+        </Entity>
+
+        <Entity name="City">
+            <Components>
+                <Transform  position="100,-50,-100" />
+            </Components>
+            <Children>
+                <Entity name="City">
+                    <Components>
+                        <Transform />
+                        <Mesh res="res://DarkCity2/Background/Models/Skyscraper_03.gltf#mesh.0.1"/>
+                        <Material res="res://DarkCity2/Background/Mat/Skyscraper_01_a.json" />
+                    </Components>
+                </Entity>
+                <Entity>
+                    <Components>
+                        <Transform />
+                        <Mesh res="res://DarkCity2/Background/Models/Skyscraper_03.gltf#mesh.0.0"/>
+                        <Material res="res://DarkCity2/Background/Mat/Grid3_a.json" />
+                    </Components>
+                </Entity>
+            </Children>
+        </Entity>
+
     </Children>
 </Entity>

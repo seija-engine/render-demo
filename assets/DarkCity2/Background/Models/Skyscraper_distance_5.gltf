@@ -1,0 +1,266 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 564,
+      "type": "VEC3",
+      "max": [
+        17.127685546875,
+        135.60751342773438,
+        32.049732208251953
+      ],
+      "min": [
+        -17.127668380737305,
+        -0.053918361663818359,
+        -32.049724578857422
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 564,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 564,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 564,
+      "type": "VEC2",
+      "max": [
+        0.99800103902816772,
+        0.78502529859542847
+      ],
+      "min": [
+        0.0168438870459795,
+        0.0034232735633850098
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 564,
+      "type": "VEC2",
+      "max": [
+        0.94379281997680664,
+        0.99603176116943359
+      ],
+      "min": [
+        0.00376012921333313,
+        0.0039681196212768555
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 846,
+      "type": "SCALAR",
+      "max": [
+        563.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Skyscraper_distance_5.bin",
+      "byteLength": 33276
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6768,
+      "byteLength": 6768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13536,
+      "byteLength": 9024
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22560,
+      "byteLength": 4512
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27072,
+      "byteLength": 4512
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 31584,
+      "byteLength": 1692
+    }
+  ],
+  "images": [
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_e.png",
+      "name": "Skyscraper_01_e"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_n.png",
+      "name": "Skyscraper_01_n"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_ao.png",
+      "name": "Skyscraper_01_ao"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_a.png",
+      "name": "Skyscraper_01_a"
+    },
+    {
+      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_m.png",
+      "name": "Skyscraper_01_m"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7482759,
+          0.7482759,
+          0.7482759,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 2
+      },
+      "emissiveTexture": {
+        "index": 0
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "name": "Skyscraper_01_a"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Skyscraper_distance_5"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Skyscraper_distance_5"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Skyscraper_distance_5"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Skyscraper_01_e"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "Skyscraper_01_n"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "Skyscraper_01_ao"
+    },
+    {
+      "sampler": 3,
+      "source": 3,
+      "name": "Skyscraper_01_a"
+    },
+    {
+      "sampler": 4,
+      "source": 4,
+      "name": "Skyscraper_01_m"
+    }
+  ]
+}

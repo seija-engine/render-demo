@@ -1,0 +1,10 @@
+{
+    "material":"materials/pbrStandard.mat.clj",
+    "props":{
+        "baseColor":"DarkCity2/Background/Textures/Grid3_a.png",
+        "normal":"DarkCity2/Background/Textures/Grid3_n.png",
+        "metallicRoughness":"DarkCity2/Background/Textures/Grid3_m.png",
+        "emissiveFactor":[0,0,0],
+        "alphaCutoff":0.545
+    }
+ }
