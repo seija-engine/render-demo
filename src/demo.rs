@@ -26,8 +26,9 @@ impl DemoGame {
     }
 
     pub fn start(&mut self,world:&mut World) {
-        let template = self.assets.get::<Template>("template/backgroud.xml", world).unwrap();
-        Template::instance(template.entity.clone(), world).unwrap();
+        let template = self.assets.get::<Template>("template/backgroud.xml", world).unwrap().clone();
+        template.instance(world).unwrap();
+       
     }
 
 

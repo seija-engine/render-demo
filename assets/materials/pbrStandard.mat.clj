@@ -6,6 +6,7 @@
         {:name "emissive"             :type "Texture" :default "black" }
         {:name "normal"               :type "Texture" :default "blue" }
         {:name "metallicRoughness"    :type "Texture" :default "white" }
+        {:name "aoTexture"            :type "Texture" :default "white" }
 
         {:name "metallicFactor" :type "float"  :default 0 }
         {:name "roughnessFactor" :type "float" :default 0 }
@@ -33,6 +34,8 @@
                         vec4 emissiveColor = texture(sampler2D(tex_emissive, tex_emissiveSampler), uv);
                         inputs.emissiveColor = emissiveColor.rgb * material.emissiveFactor;
                         normalColor = texture(sampler2D(tex_normal, tex_normalSampler), uv);
+
+                        inputs.occlusion = texture(sampler2D(tex_aoTexture, tex_aoTextureSampler), uv).r; 
                     }
                  "   
             }

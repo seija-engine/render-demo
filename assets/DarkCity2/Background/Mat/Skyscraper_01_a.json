@@ -6,6 +6,7 @@
         "normal":"DarkCity2/Background/Textures/Skyscraper_01_n.png",
         "metallicRoughness":"DarkCity2/Background/Textures/Skyscraper_01_m.png",
         "emissive":"DarkCity2/Background/Textures/Skyscraper_01_e.png",
+        "aoTexture":"DarkCity2/Background/Textures/Skyscraper_01_ao.png",
         "alphaCutoff":0.545
     }
  }

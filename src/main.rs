@@ -10,9 +10,11 @@ use seija_core::bevy_ecs::change_detection::Mut;
 use seija_app::{App};
 use seija_asset::{AssetModule, AssetServer};
 
+use seija_core::math::Vec3;
 use seija_core::{CoreModule, CoreStage, StartupStage};
 use seija_gltf::{GLTFModule};
 use seija_input::InputModule;
+use seija_pbr::lights::PBRGlobalAmbient;
 use seija_render::{RenderModule, RenderConfig, GraphSetting};
 use seija_render_template::add_render_templates;
 use seija_template::{TemplateModule};
@@ -55,6 +57,8 @@ fn init_modules(app:&mut App) {
 }
 
 pub fn on_start(world:&mut World) {
+    
+    world.insert_resource(PBRGlobalAmbient::new(Vec3::new(0.1f32, 0.1f32, 0.1f32)));
     let server = world.get_resource::<AssetServer>().unwrap().clone();
     let mut game = world.get_resource_mut::<DemoGame>().unwrap();
     game.awake(server);
