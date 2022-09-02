@@ -1,0 +1,7 @@
+{
+    "material":"materials/skybox.mat.clj",
+    "props":{
+        "mainTexture":"texture/sky/sky.cubemap.json",
+        "color":[0.4,0.4,0.4,1]
+    }
+ }

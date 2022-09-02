@@ -58,7 +58,7 @@ fn init_modules(app:&mut App) {
 
 pub fn on_start(world:&mut World) {
     
-    world.insert_resource(PBRGlobalAmbient::new(Vec3::new(0.1f32, 0.1f32, 0.1f32)));
+    world.insert_resource(PBRGlobalAmbient::new(Vec3::new(0.2f32, 0.2f32, 0.2f32)));
     let server = world.get_resource::<AssetServer>().unwrap().clone();
     let mut game = world.get_resource_mut::<DemoGame>().unwrap();
     game.awake(server);
