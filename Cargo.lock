@@ -2347,6 +2347,7 @@ dependencies = [
  "bevy_ecs",
  "glam",
  "lazy_static",
+ "log",
  "seija-app",
  "seija-core",
  "smallvec",

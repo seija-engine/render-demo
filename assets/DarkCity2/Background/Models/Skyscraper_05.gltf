@@ -150,39 +150,39 @@
   ],
   "images": [
     {
-      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_e.png",
+      "uri": "../Textures/Skyscraper_01_e.png",
       "name": "Skyscraper_01_e"
     },
     {
-      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_n.png",
+      "uri": "../Textures/Skyscraper_01_n.png",
       "name": "Skyscraper_01_n"
     },
     {
-      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_ao.png",
+      "uri": "../Textures/Skyscraper_01_ao.png",
       "name": "Skyscraper_01_ao"
     },
     {
-      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_a.png",
+      "uri": "../Textures/Skyscraper_01_a.png",
       "name": "Skyscraper_01_a"
     },
     {
-      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Skyscraper_01_m.png",
+      "uri": "../Textures/Skyscraper_01_m.png",
       "name": "Skyscraper_01_m"
     },
     {
-      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Grid3_n.png",
+      "uri": "../Textures/Grid3_n.png",
       "name": "Grid3_n"
     },
     {
-      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Grid3_ao.png",
+      "uri": "../Textures/Grid3_ao.png",
       "name": "Grid3_ao"
     },
     {
-      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Grid3_a.png",
+      "uri": "../Textures/Grid3_a.png",
       "name": "Grid3_a"
     },
     {
-      "uri": "Assets/Dark%20City%202/Assets/Source/Background/Textures/Grid3_m.png",
+      "uri": "../Textures/Grid3_m.png",
       "name": "Grid3_m"
     }
   ],

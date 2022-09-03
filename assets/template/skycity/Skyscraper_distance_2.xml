@@ -1,0 +1,7 @@
+<Entity>
+    <Components>
+        <Transform />
+        <Mesh res="res://DarkCity2/Background/Models/Skyscraper_distance_2.gltf#mesh.0.0"/>
+        <Material res="res://DarkCity2/Background/Mat/Skyscraper_01_a.json" />
+    </Components>
+</Entity>
