@@ -1,0 +1,46 @@
+<Entity>
+  <Components>
+    <Transform />
+  </Components>
+  <Children>
+    <Template res="template/skycity/Wall_Large2.xml">
+      <Transform position="-140,0,-64" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large1.xml">
+      <Transform position="-140,0,-14" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large1.xml">
+      <Transform position="-140,0,36" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large1.xml">
+      <Transform position="-140,0,86" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large1.xml">
+      <Transform position="-140,0,136" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large1.xml">
+      <Transform position="-140,0,-114" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large2.xml">
+      <Transform position="-140,0,-164" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large1.xml">
+      <Transform position="-140,0,-214" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large1.xml">
+      <Transform position="-140,0,-264" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large1.xml">
+      <Transform position="32,0,72" rotation="0,180,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large2.xml">
+      <Transform position="80,0,72" rotation="0,180,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large1.xml">
+      <Transform position="128,0,72" rotation="0,180,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/skycity/Wall_Large2.xml">
+      <Transform position="176,0,72" rotation="0,180,0" scale="1,1,1" />
+    </Template>
+  </Children>
+</Entity>

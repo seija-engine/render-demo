@@ -1,0 +1,13 @@
+{
+    "material":"materials/pbrStandard.mat.clj",
+    "props":{
+        "baseColorFactor":[0.7137255,0.7137255,0.7137255,1.0],
+        "baseColor":"DarkCity2/Textures/Props1_a.png",
+        "normal":"DarkCity2/Textures/Props1_n.png",
+        "metallicRoughness":"DarkCity2/Textures/Props1_m.png",
+        "aoTexture":"DarkCity2/Textures/Props1_ao.png",
+        "emissive":"DarkCity2/Textures/Props1_e.png",
+        "emissiveFactor":[0.0,0.282352954,1],
+        "alphaCutoff":0.545
+    }
+ }

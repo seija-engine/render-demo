@@ -8,8 +8,8 @@
         {:name "metallicRoughness"    :type "Texture" :default "white" }
         {:name "aoTexture"            :type "Texture" :default "white" }
 
-        {:name "metallicFactor" :type "float"  :default 0 }
-        {:name "roughnessFactor" :type "float" :default 0 }
+        {:name "metallicFactor" :type "float"  :default 1 }
+        {:name "roughnessFactor" :type "float" :default 1 }
         {:name "baseColorFactor" :type "float4" :default [1,1,1,1] }
         {:name "emissiveFactor" :type  "float3" :default [1,1,1] }
         {:name "alphaCutoff" :type "float" :default 0.1}
@@ -17,6 +17,7 @@
     :pass [
        
         { 
+           
             :shader { 
                 :features ["NormalMap"]
                 :name "core.pbr"

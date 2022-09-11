@@ -1,0 +1,228 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        0.51448172330856323,
+        13.0,
+        1.4855184555053711
+      ],
+      "min": [
+        -1.4855183362960815,
+        0.0,
+        -0.51448154449462891
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        1.5263071060180664,
+        2.1093974113464355
+      ],
+      "min": [
+        -0.0547354519367218,
+        0.37954032421112061
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        0.91918277740478516,
+        0.98347717523574829
+      ],
+      "min": [
+        0.016522800549864769,
+        0.016522824764251709
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5121,
+      "count": 189,
+      "type": "SCALAR",
+      "max": [
+        120.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Wall_Big_01_C.bin",
+      "byteLength": 5032
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1452,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2904,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3872,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4840,
+      "byteLength": 192
+    }
+  ],
+  "images": [
+    {
+      "uri": "../../Textures/Wall_01_n.png",
+      "name": "Wall_01_n"
+    },
+    {
+      "uri": "../../Textures/Wall_01_ao.png",
+      "name": "Wall_01_ao"
+    },
+    {
+      "uri": "../../Textures/Wall_01_a.png",
+      "name": "Wall_01_a"
+    },
+    {
+      "uri": "../../Textures/Wall_01_m.png",
+      "name": "Wall_01_m"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7137255,
+          0.7137255,
+          0.7137255,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 3
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "name": "Wall_01_a"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Wall_Big_01_C"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        3.774895E-08,
+        0.0,
+        1.0
+      ],
+      "name": "Wall_Big_01_C"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Wall_Big_01_C"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Wall_01_n"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "Wall_01_ao"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "Wall_01_a"
+    },
+    {
+      "sampler": 3,
+      "source": 3,
+      "name": "Wall_01_m"
+    }
+  ]
+}

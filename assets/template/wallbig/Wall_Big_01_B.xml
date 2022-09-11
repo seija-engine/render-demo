@@ -1,0 +1,7 @@
+ <Entity>
+    <Components>
+        <Transform />
+        <Mesh res="res://DarkCity2/Wall_Big/Models/Wall_Big_01_B.gltf#mesh.0.0"/>
+        <Material res="res://DarkCity2/Materials/Wall_01_a.json" />
+    </Components>
+</Entity>

@@ -1,0 +1,206 @@
+<Entity>
+  <Components>
+    <Transform />
+  </Components>
+  <Children>
+   
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="-28,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_E.xml">
+      <Transform position="-4.579999,6.65,31" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="20,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="28,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-4,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="-12,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="-60,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="-44,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_E.xml">
+      <Transform position="-44,6.65,31" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-36,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-20,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-52,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="12,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="4,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="36,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="60,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="52,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="44,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="76,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="68,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="-116,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-68,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-92,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="-100,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-108,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="-76,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="-84,0,32" rotation="0,270,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="20,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="36,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="60,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="52,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="44,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="68,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="-116,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-68,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-92,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="-100,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-108,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="-76,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="-84,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="-28,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="28,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-4,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="-12,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="-60,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="-44,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-36,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-20,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="-52,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="12,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="4,0,-82" rotation="0,90,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="72,0,28" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="72,0,20" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="72,0,12" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="72,0,4" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="72,0,-4" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="72,0,-12" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="72,0,-36" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="72,0,-44" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="72,0,-20" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="72,0,-28" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="72,0,-52" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_F.xml">
+      <Transform position="72,0,-60" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="72,0,-84" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_G.xml">
+      <Transform position="72,0,-68" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+    <Template res="template/wallbig/Wall_Big_01_A.xml">
+      <Transform position="72,0,-76" rotation="0,0,0" scale="1,1,1" />
+    </Template>
+  </Children>
+</Entity>

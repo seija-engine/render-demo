@@ -1,0 +1,179 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC3",
+      "max": [
+        4.0,
+        0.011659793555736542,
+        4.0
+      ],
+      "min": [
+        -4.0,
+        3.1454859663864062E-16,
+        -4.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC3",
+      "max": [
+        0.80932718515396118,
+        1.0,
+        0.809339702129364
+      ],
+      "min": [
+        -0.8092685341835022,
+        0.587340772151947,
+        -0.8093259334564209
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC2",
+      "max": [
+        0.24581761658191681,
+        0.99052762985229492
+      ],
+      "min": [
+        0.0056431517004966736,
+        0.0040455460548400879
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 100,
+      "type": "VEC2",
+      "max": [
+        0.9222872257232666,
+        0.99603176116943359
+      ],
+      "min": [
+        0.0036744510289281607,
+        0.036737799644470215
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5121,
+      "count": 120,
+      "type": "SCALAR",
+      "max": [
+        87.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5121,
+      "count": 30,
+      "type": "SCALAR",
+      "max": [
+        99.0
+      ],
+      "min": [
+        88.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Street_Road_04.bin",
+      "byteLength": 4152
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1200
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1200,
+      "byteLength": 1200
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2400,
+      "byteLength": 800
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3200,
+      "byteLength": 800
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4000,
+      "byteLength": 120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4120,
+      "byteLength": 32
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "MASK",
+      "name": "Street_el1_LP_a"
+    },
+    {
+      "name": "Street_symbols_01"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ],
+      "name": "Street_Road_04"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Street_Road_04"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Street_Road_04"
+    }
+  ]
+}

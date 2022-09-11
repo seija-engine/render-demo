@@ -2231,6 +2231,7 @@ dependencies = [
  "seija-app",
  "seija-asset",
  "seija-core",
+ "seija-geometry",
  "seija-render",
  "seija-skeleton3d",
  "seija-transform",

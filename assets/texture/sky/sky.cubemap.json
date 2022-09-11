@@ -1,8 +1,8 @@
 {
-    "left":"sunset_posx.bmp",
-    "right":"sunset_negx.bmp",
-    "top":"sunset_posy.bmp",
-    "bottom":"sunset_negy.bmp",
-    "back":"sunset_posz.bmp",
-    "front":"sunset_negz.bmp"
+    "left":"sunset_posX.bmp",
+    "right":"sunset_negX.bmp",
+    "top":"sunset_posY.bmp",
+    "bottom":"sunset_negY.bmp",
+    "back":"sunset_posZ.bmp",
+    "front":"sunset_negZ.bmp"
 }

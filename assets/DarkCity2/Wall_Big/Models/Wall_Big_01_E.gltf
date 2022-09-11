@@ -1,0 +1,242 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 428,
+      "type": "VEC3",
+      "max": [
+        -0.13065865635871887,
+        0.99802589416503906,
+        0.82350188493728638
+      ],
+      "min": [
+        -0.49969008564949036,
+        -1.0275907516479492,
+        -0.823503315448761
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 428,
+      "type": "VEC3",
+      "max": [
+        0.9706730842590332,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 428,
+      "type": "VEC2",
+      "max": [
+        0.73943144083023071,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.20039057731628418
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 428,
+      "type": "VEC2",
+      "max": [
+        0.99393916130065918,
+        0.9939391016960144
+      ],
+      "min": [
+        0.0060608843341469765,
+        0.010054349899291992
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 846,
+      "type": "SCALAR",
+      "max": [
+        427.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Wall_Big_01_E.bin",
+      "byteLength": 18812
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 5136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5136,
+      "byteLength": 5136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10272,
+      "byteLength": 3424
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13696,
+      "byteLength": 3424
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17120,
+      "byteLength": 1692
+    }
+  ],
+  "images": [
+    {
+      "uri": "../../Textures/Props1_e.png",
+      "name": "Props1_e"
+    },
+    {
+      "uri": "../../Textures/Props1_n.png",
+      "name": "Props1_n"
+    },
+    {
+      "uri": "../../Textures/Props1_ao.png",
+      "name": "Props1_ao"
+    },
+    {
+      "uri": "../../Textures/Props1_a.png",
+      "name": "Props1_a"
+    },
+    {
+      "uri": "../../Textures/Props1_m.png",
+      "name": "Props1_m"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 2
+      },
+      "emissiveTexture": {
+        "index": 0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.282352954,
+        1.0
+      ],
+      "name": "Props1_a"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Wall_Big_01_E"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        3.774895E-08,
+        0.0,
+        1.0
+      ],
+      "name": "Wall_Big_01_E"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Wall_Big_01_E"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Props1_e"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "Props1_n"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "Props1_ao"
+    },
+    {
+      "sampler": 3,
+      "source": 3,
+      "name": "Props1_a"
+    },
+    {
+      "sampler": 4,
+      "source": 4,
+      "name": "Props1_m"
+    }
+  ]
+}

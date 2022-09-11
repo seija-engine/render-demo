@@ -5,30 +5,39 @@
     <Children>
         <Entity name="Camera">
             <Components>
-                <Transform position="0,0,1" />
+                <Transform position="0,2,0" />
                 <PBRCameraInfo />
                 <Camera type="Perspective" fov="60" aspect="1.333" near="0.01" far="1000" />
             </Components>
         </Entity>
         <Entity name="Light">
             <Components>
-                <Transform rotation="120,0,0" />
-                <PBRLight type="Directional" intensity="62000" color="1,1,1" />
+                <Transform rotation="45,45,0" />
+                <PBRLight  type="Directional" intensity="92000" color="1,1,1" />
             </Components>
         </Entity>
-        
+      
         <Entity name="Skybox">
             <Components>
                 <Transform />
-                <Mesh res="res://mesh:cube" />
+                <Mesh res="res://mesh:skybox" />
                 <Material res="res://mats/skybox.json" />
             </Components>
         </Entity>
-
+       
         <Template res ="template/skycity/BackgroundCity.xml" >
-            <Transform  position="22,0,0" />
+            <Transform />
         </Template>
-       
-       
+        <Template res="template/wallbig/Wall_Bigs.xml">
+            <Transform />
+        </Template>
+     
+        <Entity>
+            <Components>
+                <Transform scale="100,1,100" />
+                <Mesh res="res://mesh:plane" />
+                <Material res="res://mats/pbr_black.json" />
+            </Components>
+        </Entity>
     </Children>
 </Entity>
